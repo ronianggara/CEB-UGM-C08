@@ -1,0 +1,72 @@
+  /* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+	.top-wrapper{
+		text-align: center;
+	    background-image:url("a2.png");
+		background-size: cover;
+		background-position: center;
+	}
+	.top-left{
+		width: 100%;
+	}
+		.top-rigth img{
+		display: none;
+	}
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
+	.logo{
+		width: 150px;
+	}
+	.logo marquee{
+		font-size: 25px;
+		
+	}
+	.header-right a{
+		font-size: 12px;
+		padding: 0 15px;
+		margin-right: 10px;
+	}
+	
+	.about-right{
+		display: none
+	}
+	.about-left{
+		width: 100%;
+		text-align: center;
+	}
+}
+
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+	footer{
+		font-size: 15px;
+	}
+  .btn {
+    width: 100%;
+  }
+  
+  .header-right{
+    display:none;
+  }
+  
+	.top-wrapper{
+		padding: 25px 0;
+	}
+  .menu-icon{
+    display:block;
+  }
+
+}
