@@ -43,6 +43,9 @@
 		width: 100%;
 		text-align: center;
 	}
+	.lesson-icon p {
+		top: 85%;
+	}
 }
 
 
@@ -51,6 +54,9 @@
   .lesson {
     width: 100%;
   }
+	.lessons{
+		margin-bottom: -50px;
+	}
 	footer{
 		font-size: 15px;
 	}
@@ -68,5 +74,8 @@
   .menu-icon{
     display:block;
   }
+	.lesson-icon p {
+		top: 80%;
+	}
 
 }
